@@ -15,6 +15,21 @@ Terminus 端点星计划，是在 GitHub 开放平台搭建的一个站点，用
 
 **注**：端点星暂不收录未被中国政府和谐的内容。
 
+
+## 如何帮助打破封锁
+
+由于官方 GitHub Page 随时可能被墙，你可以轻松做一个可直连的网站：
+
+方法：
+1. 注册 GitHub
+2. fork <https://github.com/Terminus2049/Terminus2049.github.io> , 如果链接不存在，使用 https://github.com/neutronemu/Terminus2049
+3. 在 setting 中打开 GitHub Page，source 选择“master branch”
+4. 在 setting 中将项目名称改为 `Terminus2049`
+5. 修改 fork 后的仓库，将 `_config.yml` 中第 63 `url: https://Terminus2049.github.io` 改为 `url: https://<username>.github.io`
+
+然后就可以通过 `https://<username>.github.io/Terminus2049` 访问。
+
+
 ## 如何参与端点星计划
 
 ### 如何帮助整理 404 文章
